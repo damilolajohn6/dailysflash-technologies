@@ -47,7 +47,7 @@ export function ServiceCard({ service, index }: ServiceCardProps) {
           className={cn(
             "group relative h-full overflow-hidden transition-all duration-300",
             "hover:shadow-lg hover:shadow-primary/5",
-            "hover:border-primary/50 hover:-translate-y-1"
+            "hover:border-primary/50 hover:-translate-y-1",
           )}
         >
           {/* Subtle glow effect on hover */}
@@ -62,7 +62,7 @@ export function ServiceCard({ service, index }: ServiceCardProps) {
                 "w-12 h-12 rounded-xl flex items-center justify-center mb-4",
                 "bg-primary/10 text-primary",
                 "group-hover:bg-primary group-hover:text-primary-foreground",
-                "transition-all duration-300"
+                "transition-all duration-300",
               )}
             >
               <Icon className="h-6 w-6" />
@@ -81,8 +81,8 @@ export function ServiceCard({ service, index }: ServiceCardProps) {
             {/* Technologies */}
             <div className="flex flex-wrap gap-2 mb-4">
               {service.technologies.slice(0, 3).map((tech) => (
-                <Badge key={tech} variant="secondary" className="text-xs">
-                  {tech}
+                <Badge key={tech.name} variant="secondary" className="text-xs">
+                  {tech.name}
                 </Badge>
               ))}
               {service.technologies.length > 3 && (
