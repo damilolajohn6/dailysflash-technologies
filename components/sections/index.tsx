@@ -1,0 +1,9 @@
+export { Hero } from "./hero";
+export { ServicesGrid } from "./services-grid";
+export { WhyChooseUs } from "./why-choose-us";
+export { Stats } from "./stats";
+export { Testimonials } from "./testimonials";
+export { CTA } from "./cta";
+export { ProductsPreview } from "./products-preview";
+export { Process } from "./process";
+export { AboutPreview } from "./about-preview";
