@@ -1081,7 +1081,7 @@ export const SERVICES = [
     ],
 
     pricing: {
-      startingAt: "₦500,000",
+      startingAt: "₦250,000",
       note: "Custom software projects are priced based on scope and complexity. We offer fixed-price and time & materials models.",
       factors: [
         "System complexity",
