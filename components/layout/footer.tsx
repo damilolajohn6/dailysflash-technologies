@@ -61,15 +61,6 @@ export function Footer() {
                 href="/"
                 className="flex items-center gap-2 font-bold text-xl"
               >
-                <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-primary/10 border border-primary/20">
-                  {/* <Zap className="h-5 w-5 text-primary" /> */}
-                  <Image
-                    src="/images/logoicon.png"
-                    alt="DailysFlash"
-                    width={24}
-                    height={24}
-                  />
-                </div>
                 <Image
                   src="/images/logosite.png"
                   alt="DailysFlash"

@@ -27,19 +27,19 @@ export function Logo({ className, showText = true }: LogoProps) {
       >
         {/* <Zap className="h-5 w-5 text-primary transition-transform duration-300 group-hover:scale-110" /> */}
         <Image
-          src="/images/logoicon.png"
+          src="/images/logosite.png"
           alt="DailysFlash"
-          width={24}
-          height={24}
+          width={240}
+          height={100}
         />
         <div className="absolute inset-0 rounded-xl bg-primary/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </motion.div>
-      {showText && (
+      {/* {showText && (
         <span className="hidden sm:inline-block">
           <span className="text-foreground">Dailys</span>
           <span className="text-primary">Flash</span>
         </span>
-      )}
+      )} */}
     </Link>
   );
 }
