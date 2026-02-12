@@ -15,7 +15,7 @@ export function TestimonialCard({ testimonial, className }: TestimonialCardProps
     <Card className={cn("h-full", className)}>
       <CardContent className="p-6 flex flex-col h-full">
         {/* Rating */}
-        <div className="flex gap-1 mb-4">
+        {/* <div className="flex gap-1 mb-4">
           {Array.from({ length: 5 }).map((_, i) => (
             <Star
               key={i}
@@ -27,7 +27,7 @@ export function TestimonialCard({ testimonial, className }: TestimonialCardProps
               )}
             />
           ))}
-        </div>
+        </div> */}
 
         {/* Quote */}
         <blockquote className="flex-grow">
