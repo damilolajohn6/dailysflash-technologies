@@ -205,7 +205,7 @@ export const SERVICES = [
 
     // Pricing information
     pricing: {
-      startingAt: "$25,000",
+      startingAt: "₦250,000",
       note: "Project costs vary based on scope, complexity, and timeline. Contact us for a detailed quote.",
       factors: [
         "Application complexity and features",
@@ -381,7 +381,7 @@ export const SERVICES = [
     ],
 
     pricing: {
-      startingAt: "$15,000",
+      startingAt: "₦150,000",
       note: "Design project costs vary based on scope and complexity. We offer both project-based and retainer pricing models.",
       factors: [
         "Scope of user research",
@@ -555,7 +555,7 @@ export const SERVICES = [
     ],
 
     pricing: {
-      startingAt: "$3,000/month",
+      startingAt: "₦30,000/month",
       note: "Marketing retainers vary based on scope and channels. Project-based work is also available.",
       factors: [
         "Number of marketing channels",
@@ -569,7 +569,7 @@ export const SERVICES = [
     relatedServices: ["ui-ux-design", "web-mobile-development", "ecommerce-software"],
 
     stats: [
-      { value: "$50M+", label: "Revenue Generated" },
+      { value: "₦50M+", label: "Revenue Generated" },
       { value: "2.5M+", label: "Leads Delivered" },
       { value: "15x", label: "Average ROAS" },
       { value: "150+", label: "Clients Served" },
@@ -731,7 +731,7 @@ export const SERVICES = [
     ],
 
     pricing: {
-      startingAt: "$10,000",
+      startingAt: "₦500,000",
       note: "Cloud projects are typically priced based on scope. Ongoing management is billed monthly.",
       factors: [
         "Infrastructure complexity",
@@ -745,7 +745,7 @@ export const SERVICES = [
     relatedServices: ["web-mobile-development", "ai-machine-learning", "ecommerce-software"],
 
     stats: [
-      { value: "$10M+", label: "Cloud Costs Saved" },
+      { value: "₦10M+", label: "Cloud Costs Saved" },
       { value: "99.99%", label: "Uptime Achieved" },
       { value: "500+", label: "Deployments/Month" },
       { value: "50+", label: "Migrations Completed" },
@@ -905,7 +905,7 @@ export const SERVICES = [
     ],
 
     pricing: {
-      startingAt: "$30,000",
+      startingAt: "₦300,000",
       note: "AI projects vary significantly in scope. We offer fixed-price projects and ongoing development retainers.",
       factors: [
         "Use case complexity",
@@ -921,7 +921,7 @@ export const SERVICES = [
     stats: [
       { value: "100+", label: "AI Solutions Deployed" },
       { value: "85%", label: "Avg. Efficiency Gain" },
-      { value: "$25M+", label: "Client Savings" },
+      { value: "₦25M+", label: "Client Savings" },
       { value: "15", label: "AI Engineers" },
     ],
   },
@@ -1064,7 +1064,7 @@ export const SERVICES = [
       },
       {
         question: "How much does custom software cost?",
-        answer: "Custom software projects typically range from $50,000 to $500,000+, depending on complexity. We provide detailed estimates after understanding your requirements. We can also suggest MVP approaches that reduce initial investment.",
+        answer: "Custom software projects typically range from ₦250,000 to ₦1,000,000+, depending on complexity. We provide detailed estimates after understanding your requirements. We can also suggest MVP approaches that reduce initial investment.",
       },
       {
         question: "How do you handle changes during development?",
@@ -1081,7 +1081,7 @@ export const SERVICES = [
     ],
 
     pricing: {
-      startingAt: "$50,000",
+      startingAt: "₦500,000",
       note: "Custom software projects are priced based on scope and complexity. We offer fixed-price and time & materials models.",
       factors: [
         "System complexity",
@@ -1095,7 +1095,7 @@ export const SERVICES = [
     relatedServices: ["web-mobile-development", "ui-ux-design", "cloud-devops"],
 
     stats: [
-      { value: "$100M+", label: "E-commerce GMV" },
+      { value: "₦100M+", label: "E-commerce GMV" },
       { value: "75+", label: "Custom Solutions" },
       { value: "99.9%", label: "Platform Uptime" },
       { value: "50+", label: "Integrations Built" },
@@ -1348,7 +1348,7 @@ Today, NaijaRide serves over 500,000 active users across 25 Nigerian cities, com
       { value: "200+", label: "Enterprise Clients" },
       { value: "50K+", label: "Daily Active Users" },
       { value: "99.9%", label: "Uptime SLA" },
-      { value: "$2B+", label: "Transactions Processed" },
+      { value: "₦2B+", label: "Transactions Processed" },
     ],
     overview: {
       title: "One Platform. Infinite Possibilities.",
