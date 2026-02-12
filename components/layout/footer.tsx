@@ -63,17 +63,19 @@ export function Footer() {
               >
                 <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-primary/10 border border-primary/20">
                   {/* <Zap className="h-5 w-5 text-primary" /> */}
-                  <Image 
-                   src="/images/logosite.png"
-                   alt="DailysFlash"
-                   width={24}
-                   height={24}
-                   />
+                  <Image
+                    src="/images/logoicon.png"
+                    alt="DailysFlash"
+                    width={24}
+                    height={24}
+                  />
                 </div>
-                <span>
-                  <span className="text-foreground">Dailys</span>
-                  <span className="text-primary">Flash</span>
-                </span>
+                <Image
+                  src="/images/logosite.png"
+                  alt="DailysFlash"
+                  width={240}
+                  height={100}
+                />
               </Link>
               <p className="mt-4 text-sm text-muted-foreground max-w-xs">
                 {SITE_CONFIG.description.slice(0, 120)}...

@@ -27,7 +27,7 @@ export function Logo({ className, showText = true }: LogoProps) {
       >
         {/* <Zap className="h-5 w-5 text-primary transition-transform duration-300 group-hover:scale-110" /> */}
         <Image
-          src="/images/logosite.png"
+          src="/images/logoicon.png"
           alt="DailysFlash"
           width={24}
           height={24}
