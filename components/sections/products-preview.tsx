@@ -40,13 +40,13 @@ export function ProductsPreview() {
                 <div
                   className={cn(
                     "group relative bg-card border rounded-3xl overflow-hidden card-hover",
-                    index % 2 === 1 && "lg:flex-row-reverse"
+                    index % 2 === 1 && "lg:flex-row-reverse",
                   )}
                 >
                   <div
                     className={cn(
                       "grid lg:grid-cols-2 gap-0",
-                      index % 2 === 1 && "lg:[direction:rtl]"
+                      index % 2 === 1 && "lg:[direction:rtl]",
                     )}
                   >
                     {/* Image */}
@@ -64,7 +64,7 @@ export function ProductsPreview() {
                     <div
                       className={cn(
                         "p-8 lg:p-12 flex flex-col justify-center",
-                        index % 2 === 1 && "lg:[direction:ltr]"
+                        index % 2 === 1 && "lg:[direction:ltr]",
                       )}
                     >
                       <div className="flex items-center gap-3 mb-4">
@@ -100,11 +100,11 @@ export function ProductsPreview() {
                       <ul className="grid grid-cols-2 gap-2 mb-6">
                         {product.features.slice(0, 4).map((feature) => (
                           <li
-                            key={feature}
+                            key={feature.title}
                             className="flex items-center gap-2 text-sm text-muted-foreground"
                           >
                             <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-                            {feature}
+                            {feature.title}
                           </li>
                         ))}
                       </ul>
@@ -112,8 +112,12 @@ export function ProductsPreview() {
                       {/* Tech stack */}
                       <div className="flex flex-wrap gap-2">
                         {product.technologies.map((tech) => (
-                          <Badge key={tech} variant="secondary" className="text-xs">
-                            {tech}
+                          <Badge
+                            key={tech.name}
+                            variant="secondary"
+                            className="text-xs"
+                          >
+                            {tech.name}
                           </Badge>
                         ))}
                       </div>

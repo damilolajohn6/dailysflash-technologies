@@ -10,24 +10,14 @@ interface TestimonialCardProps {
   className?: string;
 }
 
-export function TestimonialCard({ testimonial, className }: TestimonialCardProps) {
+export function TestimonialCard({
+  testimonial,
+  className,
+}: TestimonialCardProps) {
   return (
     <Card className={cn("h-full", className)}>
       <CardContent className="p-6 flex flex-col h-full">
         {/* Rating */}
-        {/* <div className="flex gap-1 mb-4">
-          {Array.from({ length: 5 }).map((_, i) => (
-            <Star
-              key={i}
-              className={cn(
-                "h-4 w-4",
-                i < testimonial.rating
-                  ? "text-amber-400 fill-amber-400"
-                  : "text-muted"
-              )}
-            />
-          ))}
-        </div> */}
 
         {/* Quote */}
         <blockquote className="flex-grow">
