@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { SITE_CONFIG, SERVICES, PRODUCTS } from "@/lib/constants";
+import Image from "next/image";
+import { IMAGES } from "@/lib/images";
 
 const footerLinks = {
   services: SERVICES.slice(0, 4).map((s) => ({
@@ -60,7 +62,13 @@ export function Footer() {
                 className="flex items-center gap-2 font-bold text-xl"
               >
                 <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-primary/10 border border-primary/20">
-                  <Zap className="h-5 w-5 text-primary" />
+                  {/* <Zap className="h-5 w-5 text-primary" /> */}
+                  <Image 
+                   src="/images/logosite.png"
+                   alt="DailysFlash"
+                   width={24}
+                   height={24}
+                   />
                 </div>
                 <span>
                   <span className="text-foreground">Dailys</span>
