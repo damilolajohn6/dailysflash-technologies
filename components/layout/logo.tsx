@@ -20,26 +20,14 @@ export function Logo({ className, showText = true }: LogoProps) {
         className,
       )}
     >
-      <motion.div
-        className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-primary/10 border border-primary/20"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        {/* <Zap className="h-5 w-5 text-primary transition-transform duration-300 group-hover:scale-110" /> */}
+      <div className="py-2">
         <Image
-          src="/images/logoicon.png"
+          src="/images/logosite.png"
           alt="DailysFlash"
-          width={24}
-          height={24}
+          width={240}
+          height={100}
         />
-        <div className="absolute inset-0 rounded-xl bg-primary/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-      </motion.div>
-      <Image
-        src="/images/logosite.png"
-        alt="DailysFlash"
-        width={240}
-        height={100}
-      />
+      </div>
     </Link>
   );
 }
