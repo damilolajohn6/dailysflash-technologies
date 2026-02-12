@@ -26,6 +26,7 @@ export function Logo({ className, showText = true }: LogoProps) {
           alt="DailysFlash"
           width={240}
           height={100}
+          className="py-4"
         />
       </div>
     </Link>
